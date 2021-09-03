@@ -6,8 +6,7 @@ const Navbar = () => (
     <div className="topbar">
       <div className="top-container">
         <div className="top-left">
-          <i className="icofont-clock-time"></i>
-          Monday - Sunday, 24x7
+          <h1>Emergency Bed . INfo</h1>
         </div>
         <div className="top-right">
           <i className="icofont-phone"></i>
@@ -17,11 +16,13 @@ const Navbar = () => (
     </div>
     <header className="navbar">
       <div className="navbar__title navbar__item">
-        Integrated Covid Management System
+        Emergency Bed Management System
       </div>
-      <div className="navbar__item">About Us</div>
-      <div className="navbar__item">Home</div>
-      <div className="navbar__item">E-Services</div>
+      <ul>
+      <li className="navbar__item">About Us</li>
+      <li className="navbar__item">Home</li>
+      <li className="navbar__item">E-Services</li>
+      </ul>
     </header>
   </>
 );

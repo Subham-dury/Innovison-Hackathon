@@ -24,7 +24,10 @@ main {
 
 .navbar {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+  text-align: center;
   background: #fff;
   color: #3fbbc0;
   font-family: Helvetica;
@@ -42,4 +45,12 @@ main {
   padding: 16px 16px;
   cursor: pointer;
   vertical-align: middle;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

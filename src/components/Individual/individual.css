@@ -1,0 +1,66 @@
+.card {
+  background-color: #ecf8f9;
+  width: 80%;
+  padding: 10px;
+  margin: 20px;
+  color: #111;
+  height: auto;
+  border-radius: 10px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  border-radius: 10px;
+}
+
+.header .details {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: lemonchiffon;
+  font-size: 1.3rem;
+}
+
+.details .name {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.status {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  background-color: rgb(100, 100, 100, 0.1);
+  padding: 5px 0;
+  border-radius: 10px;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+  padding: 0 10px;
+}
+
+.booking button {
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3fbbc0;
+  border: none;
+}
+
+.booking button:hover {
+  background-color: #1d4d4e;
+}
+
+.booking button:active {
+  transform: scale(0.98);
+}

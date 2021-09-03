@@ -1,0 +1,26 @@
+.availabilty-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: lightblue;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: rgb(129, 187, 206);
+}
+
+button:active {
+  transform: scale(0.98);
+}
