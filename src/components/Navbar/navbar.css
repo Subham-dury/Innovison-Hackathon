@@ -9,42 +9,45 @@ main {
 .topbar {
   background: #3fbbc0;
   color: #fff;
-  height: 40px;
-  font-size: 16px;
+  height: auto;
+  font-size: 0.6rem;
   font-weight: 600;
   transition: all 0.5s;
+  padding-bottom: 10px;
 }
 
 .top-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7% 14.5%;
+  padding: 0 10%;
+}
+
+.top-right {
+  font-size: 0.9rem;
 }
 
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
-
-  justify-content: space-evenly;
-  text-align: center;
   background: #fff;
   color: #3fbbc0;
   font-family: Helvetica;
   font-weight: 300;
-  padding: 1.5% 13.5%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 5%;
 }
 
 .navbar__title {
-  margin-right: auto;
   font-size: 150%;
-  padding: 12px 16px;
+  padding: 12px;
 }
 
 .navbar__item {
-  padding: 16px 16px;
+  padding: 16px;
   cursor: pointer;
-  vertical-align: middle;
 }
 
 .navbar ul {
@@ -53,4 +56,18 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.navbar ul li:hover {
+  color: #fff;
+  background-color: #3fbbc0;
+  border-radius: 10%;
+}
+
+@media (max-width: 860px) {
+  .navbar {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
 }

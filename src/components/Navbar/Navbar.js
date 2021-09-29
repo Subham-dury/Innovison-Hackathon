@@ -18,11 +18,13 @@ const Navbar = () => (
       <div className="navbar__title navbar__item">
         Emergency Bed Management System
       </div>
-      <ul>
-      <li className="navbar__item">About Us</li>
-      <li className="navbar__item">Home</li>
-      <li className="navbar__item">E-Services</li>
-      </ul>
+      <div className="navbar_title">
+        <ul>
+        <li className="navbar__item">About Us</li>
+        <li className="navbar__item">Home</li>
+        <li className="navbar__item">E-Services</li>
+        </ul>
+      </div>
     </header>
   </>
 );
