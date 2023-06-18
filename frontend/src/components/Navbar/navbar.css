@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 main {
@@ -28,7 +29,7 @@ main {
   background: #fff;
   color: #3fbbc0;
   font-family: Helvetica;
-  font-weight: 300;
+  font-weight: 600;
   padding: 1.5% 13.5%;
 }
 
